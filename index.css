@@ -1,0 +1,333 @@
+html { /* общие стили для всего сайта/проекта */
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+*, *:before, *:after {
+        box-sizing: inherit;
+}
+    
+.body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+        margin: 0;
+        padding: 0;
+        font-weight: normal;
+}
+    
+.ol, ul {
+        list-style: none;
+}
+    
+.img {
+        max-width: 100%;
+        height: auto;
+}
+
+
+.body {
+        font-family: "Montserrat";
+    }
+
+
+/* Фоновое изображение, див с залитым фоном */
+
+.fon {
+    
+    position: absolute;
+    width: 1444px;
+    height: 1026.84px;
+    left: 0px;
+    top: 0px;
+
+    background: linear-gradient(115.98deg, #FFC635 7.52%, #D39B0B 76.25%);
+}
+
+/* Блок с меню */
+
+.hader {
+    
+    position: relative;
+
+    margin-bottom: 76.21px;
+    bottom: -76.21px;
+    left: 56.16px;
+    margin-right: 112.32px;
+    height: 81.14px;   
+    
+
+    display: flex;
+}
+
+
+
+.logo {
+        
+    height: 81.14px;
+    width: 288.7px;
+    
+}
+
+
+
+
+.menu {
+        display: block;
+        padding-left: 34.19px;
+        padding-right: 34.19px;
+        text-align: center;
+
+        height: 81.14px;
+        width: 556.59px;
+        display: flex;
+
+        font-size: 20.06px;
+
+        background-color: none;
+
+        font-family: "Montserrat";
+        font-weight: 800;
+    
+ }
+
+
+.G1 {
+        padding: 30px ;
+        height: 81.14px;
+        width: 110.3px;
+
+        background-color:none;
+       
+}
+
+
+.G2 {
+        padding: 30px ;
+        height: 81.14px;
+        width: 110.3px;
+        
+}
+
+.G3 {
+    padding: 29px ;
+    height: 81.14px;
+    width: 170px;
+
+       background-color: none;
+
+        
+}
+
+.G4 {
+    
+        padding: 30px ;
+        height: 81.14px;
+        width: 100px;
+}
+
+
+
+
+.call {
+    padding: 26px 25px;
+    
+    height: 81.14px;
+    width: 35px;
+    
+    
+}
+
+.tel {
+    padding: 15px 20px;
+    padding-top: 30px;
+    text-align: center;
+
+    font-family: "Montserrat";
+    font-weight: 800;
+   
+    height: 81.14px;
+    width: 218px;
+
+    font-size: 20.06px;
+    
+}
+
+
+
+.korzina {
+    padding: 10px 0x;
+  
+    height: 81.14px;
+    width: 67.19px;
+
+    
+}
+
+.summ {
+    padding: 30px 0px 0px 5px;
+    text-align: center;
+    
+    height: 81.14px;
+    width: 81.97px;
+
+    background-color: none;
+
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.strelka {
+
+    height: 8.3px;
+    width: 18.44px;
+
+    padding: 30px 5px;
+}
+
+
+
+/* Блок с контентом */
+
+.main {
+    position: relative;
+    display:  block;
+    display: flex;
+
+    height: 467.29px;
+    width: 827.43px;
+        
+    margin-bottom: 122.66px;
+    margin-right: 112.32px;
+    bottom: -76.21px;
+    left: 56.16px;
+
+    background-color: none;
+
+    display: block;
+    
+
+}
+
+
+
+.tytle1 {
+    font-size: 71.73px;
+
+    font-family: "Montserrat";
+    font-weight: 800;
+    line-height: 87.44px;
+
+}
+
+.deskription {
+    margin-top: 33.6px;
+    font-size: 35.86px;
+
+    font-family: "Montserrat";
+    font-weight: 300;
+
+}
+
+
+
+
+.button {
+    
+    display:  block;
+    text-align: center;
+
+    margin-top: 66.18px;
+    font-size: 26.47px;
+    padding: 23.7px 43.12px;
+    line-height: 32.27px;
+
+    font-family: "Montserrat";
+    font-weight: 700;
+
+
+    height: 85.24px;
+    width: 370.02px;
+
+    color: #fff;
+    background: linear-gradient(272.92deg, #FA3333 50.38%, rgba(254, 87, 87, 0.99) 93.81%);
+    box-shadow: 0px 9.025px 35.0972px rgba(252, 73, 73, 0.36);
+    border-radius: 41.1139px;
+    
+
+}
+
+
+/* Блок с песиком */
+
+.right-block {
+    position:relative;
+    display:  block;
+
+    bottom: 600px;
+    left: 680px;
+
+    background-color: none;
+
+}
+
+
+/* Блок с таксой и котиком*/
+
+.podval {
+    position: relative;
+    top: -720px;
+ 
+    display:  block;
+    display: flex;
+
+
+    background-color: none;
+}
+
+.dog1 {
+    position: absolute;
+    display:  block;
+
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 26.47px;
+
+    padding: 19px 70px 144px 70px;
+
+}
+
+.dog2 {
+    position: relative;
+    display:  block;
+    padding: 10px 50px 100px 40px;
+
+    bottom: 150px;
+
+}
+
+.cat1 {
+    position: absolute;
+    display:  block;
+    text-align: center;
+
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 26.47px;
+
+    padding: 19px 70px 144px 90px;
+}
+
+
+.cat2 {
+    position: relative;
+    display:  block;
+    padding: 0px 50px 50px 105px;
+    
+    bottom: 180px;
+}
+
+
+
+
+
+
+
